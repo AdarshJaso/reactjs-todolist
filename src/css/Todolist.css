@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: ghostwhite;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.card {
+  min-height: fit-content;
+  min-width: 320px;
+  padding: 20px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: lightpink;
+  box-shadow: 1px 1px 4px #f6afbb;
+  margin: 15px auto;
+}
+
+.card div {
+  margin-bottom: 20px;
+}
+
+input {
+  height: 42px;
+  font-size: 16px !important;
+  padding: 0 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+}
+
+.inputfield button {
+  font-family: "Poppins", sans-serif;
+  height: 42px;
+  background-color: black;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
+
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+#list ul {
+  padding: 0 10px;
+}
+
+#list li {
+  list-style: none;
+}
+
+.lists {
+  margin-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.lists button {
+  background-color: black;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.lists button img,
+.clear-btn img {
+  display: grid;
+  place-items: center;
+}
+
+.clear-btn {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
