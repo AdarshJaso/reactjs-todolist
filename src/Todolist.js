@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Lists from "./components/lists";
-import Form from "./components/form";
+import Lists from "./components/Lists";
+import Form from "./components/Form";
 import "./css/Todolist.css";
 import github from "./img/github.svg";
 import clear from "./img/clear.svg";
